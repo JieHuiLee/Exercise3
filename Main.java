@@ -7,26 +7,25 @@ public class Main {
 		System.out.println("Welcome To Gadget Shop");
 		System.out.println("Gadget  : Mouse");
 		
-		Mouse IronclawRGB = new Mouse();
+		Mouse Corsair = new Mouse();
 		System.out.println("======Corsair======");
-		System.out.println("Model : " + IronclawRGB.model);
-		System.out.println("Color : " + IronclawRGB.color);
-		System.out.println("Brand : " + IronclawRGB.brand);
-		System.out.println("Weight(g) : " + IronclawRGB.weight);
-		System.out.println("Wireless : " +  IronclawRGB.wireless);
-		System.out.println("Battery Life : " + IronclawRGB.batteryLife +" Days");
+		System.out.println("Model : " + Corsair.model);
+		System.out.println("Color : " + Corsair.color);
+		System.out.println("Brand : " + Corsair.brand);
+		System.out.println("Weight(g) : " + Corsair.weight);
+		System.out.println("Wireless : " +  Corsair.wireless);
+		System.out.println("Battery Life : " + Corsair.batteryLife +" Days");
 		System.out.println();
 		
-		Mouse MXMaster3 = new Mouse("MX Master 3","Black","Logitech",100.0, "Yes",70);
+		Mouse Logitech = new Mouse("MX Master 3","Black","Logitech",100.0, "Yes",70);
 		System.out.println("======Logitech======");
-		System.out.println("Model :" + MXMaster3.model);
-		System.out.println("Color :" + MXMaster3.color);
-		System.out.println("Brand : " + MXMaster3.brand);
-		System.out.println("Weight(g) : " +  MXMaster3.weight);
-		System.out.println("Wireless : " +  MXMaster3.wireless);
-		System.out.println("Battery Life: " + MXMaster3.batteryLife +" Days");
+		System.out.println("Model :" + Logitech.model);
+		System.out.println("Color :" + Logitech.color);
+		System.out.println("Brand : " + Logitech.brand);
+		System.out.println("Weight(g) : " +  Logitech.weight);
+		System.out.println("Wireless : " + Logitech.wireless);
+		System.out.println("Battery Life: " + Logitech.batteryLife +" Days");
 		System.out.println();
-	
-	}
+		}
 
 }
