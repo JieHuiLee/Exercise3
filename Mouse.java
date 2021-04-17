@@ -3,16 +3,16 @@ package Exe3Constructor;
 import java.util.Scanner;
 
 public class Mouse {
-	String model;
-	String color;
-	String brand;
-	double weight;
-	String wireless;
-	int batteryLife;
+	String model; //m
+	String color; //c
+	String brand; //b
+	double weight; //w
+	String wireless; //wl
+	int batteryLife; //l
 	
 	Scanner read = new Scanner(System.in);
 	//default constructor
-	//Mouse MXMaster3 = new Mouse();
+	//Mouse IronclawRGB = new Mouse();
 	Mouse() {
 		
 		System.out.println("Enter Wireless");
