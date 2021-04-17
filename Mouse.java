@@ -1,7 +1,7 @@
 package Exe3Constructor;
-
+	
 import java.util.Scanner;
-
+	
 public class Mouse {
 	String model; //m
 	String color; //c
@@ -9,12 +9,12 @@ public class Mouse {
 	double weight; //w
 	String wireless; //wl
 	int batteryLife; //l
-	
+		
 	Scanner read = new Scanner(System.in);
 	//default constructor
-	//Mouse IronclawRGB = new Mouse();
+	//Mouse Corsair = new Mouse();
 	Mouse() {
-		
+			
 		System.out.println("Enter Wireless");
 		this.wireless = read.nextLine();
 		read.nextLine();
@@ -31,18 +31,17 @@ public class Mouse {
 		this.brand = read.nextLine();	
 		read.nextLine();
 		System.out.println("Enter Weight");
-		this.weight = read.nextDouble();
-			
+		this.weight = read.nextDouble();	
 	}
-		
+			
 	//Parameterized constructor
 	Mouse(String m, String c, String b, double w,String wl,int l){
-			this.model = m;
-			this.color = c;
-			this.brand = b;
-			this.weight = w;
-			this.wireless = wl;
-			this.batteryLife = l;
+		this.model = m;
+		this.color = c;
+		this.brand = b;
+		this.weight = w;
+		this.wireless = wl;
+		this.batteryLife = l;
 	}
-
+	
 }
